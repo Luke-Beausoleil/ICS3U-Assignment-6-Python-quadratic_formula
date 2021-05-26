@@ -8,6 +8,7 @@ import math
 
 
 def discriminant(a, b, c):
+    # this function calculates discriminant
     discriminant_value = (b ** 2) - (4 * a * c)
 
     return discriminant_value
@@ -39,6 +40,7 @@ def main():
         a = float(a_string)
         b = float(b_string)
         c = float(c_string)
+        # output and function call
         if discriminant(a, b, c) < 0:
             print("No roots\nDone.")
         elif discriminant(a, b, c) == 0:
